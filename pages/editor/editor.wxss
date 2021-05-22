@@ -1,0 +1,26 @@
+/* pages/editor/editor.wxss */
+
+.item{
+   border: 1px solid rgb(231, 231, 231);
+   margin-top: 10rpx;
+}
+
+.addImage{
+   margin-top: 30rpx;
+   margin-bottom: 30rpx;
+   background-color: rgb(177, 154, 154);
+   text-align: center;
+   width: 260rpx;
+}
+
+image{
+   margin-bottom: 30rpx;
+}
+
+.type2{
+   margin-bottom: 20rpx;
+}
+
+.type{
+   margin-right: 50rpx;
+}

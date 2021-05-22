@@ -1,0 +1,45 @@
+{
+   "pages": [
+      "pages/news/news",
+      "pages/addNews/addNews",
+      "pages/reader/reader",
+      "pages/editor/editor",
+      "pages/detail/detail",
+      "pages/user/user"
+      
+   ],
+   "window": {
+      "backgroundColor": "#F6F6F6",
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#f08519",
+      "navigationBarTitleText": "我师网",
+      "navigationBarTextStyle": "white"
+   },
+
+   "tabBar": {
+      "selectedColor":"#ff6600",
+      "list": [
+        {
+          "pagePath": "pages/news/news",
+          "text": "简讯",
+          "iconPath": "images/logoa2.png",
+          "selectedIconPath": "images/logoa1.png"
+        },
+        {
+          "pagePath": "pages/reader/reader",
+          "text": "阅读",
+          "iconPath": "images/logoc2.png",
+          "selectedIconPath": "images/logoc1.png"
+        },
+        {
+         "pagePath": "pages/user/user",
+         "text": "用户",
+         "iconPath": "images/logoe2.png",
+         "selectedIconPath": "images/logoe1.png"
+       }
+      ] 
+      },
+
+   "sitemapLocation": "sitemap.json",
+   "style": "v2"
+}

@@ -1,0 +1,10 @@
+<!--pages/detail/detail.wxml-->
+
+<view class='container'> 
+    <view class='reader-text'>
+        <text class='title'>{{article.title}}</text>
+        <text class='author'>{{article.author}}　{{article.time}}</text>
+        <rich-text nodes="{{article.content}}" class="section" bindload="image" ></rich-text>
+    </view>
+</view>
+

@@ -1,0 +1,62 @@
+/* pages/reader/reader.wxss */
+
+.reader{
+   font-size: 19px;
+   padding-bottom: 10rpx;
+   border-bottom: 1rpx solid rgb(150, 148, 148); 
+   }
+  
+  
+  
+  .reader-item{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+    border-bottom: 1rpx solid rgb(212, 212, 212);
+    
+  }
+  
+  .image{
+    display:flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .title{
+    display:flex;
+    font-size: 17px;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    justify-content: center;
+    
+  }
+  
+  .author{
+    display:flex;
+    padding-bottom: 5rpx;
+    justify-content: center;
+  
+  }
+  .weui-navbar__title{
+    font-size: 17px;
+    padding-top: 10rpx;
+    margin-top: 2rpx;
+  
+  }
+  
+  .weui-navbar__item {
+  
+  display:block;
+  -webkit-box-flex:1;
+  -webkit-flex:1;
+  flex:1;
+  padding:5rpx 0;
+  text-align:center;
+  font-size:0;
+  }
+  
+  .weui-navbar__item.weui-bar__item_on {
+  color: #f08519;
+  
+  }

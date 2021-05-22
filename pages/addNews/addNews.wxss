@@ -1,0 +1,9 @@
+/* pages/addNews/addNews.wxss */
+.item{
+   border: 1px solid rgb(231, 231, 231);
+   margin-top: 30rpx;
+}
+
+.clcik{
+   margin-top: 30rpx;
+}

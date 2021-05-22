@@ -1,0 +1,82 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.userinfo, .uploader, .tunnel {
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 675rpx;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: white;
+}
+
+.userinfo-avatar:after {
+  border: none;
+}
+
+.userinfo-nickname {
+  font-size: 32rpx;
+  color: #007aff;
+  background-color: white;
+  background-size: cover;
+}
+
+.userinfo-nickname::after {
+  border: none;
+}
+
+.myclass {
+  margin-top: 40rpx;
+  width: 650rpx;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  justify-content: center;
+  transition: all 300ms ease;
+}
+
+.image{
+  width: 280rpx;
+  height: 280rpx;
+}
+
+.addNews{
+  height: 120rpx;
+  margin-top: 40rpx;
+  width: 650rpx;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30rpx;
+  justify-content: center;
+  transition: all 300ms ease;
+}

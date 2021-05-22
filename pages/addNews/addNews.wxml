@@ -1,0 +1,8 @@
+<!--pages/addNews/addNews.wxml-->
+<view class="container">
+   <input model:value="{{title}}"  class="item" placeholder="标题"/>
+   <input model:value="{{time}}"  class="item"  placeholder="时间"/>
+   <textarea model:value="{{section}}"  class="item"  placeholder="内容"/>
+
+   <button bindtap="addNews" class="clcik">增加简讯</button>
+</view>

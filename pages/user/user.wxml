@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <view 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></view>
+    <view class='userinfo-nickname'>{{nickname}} , 我师网欢迎您！</view>
+  </view>
+
+  <view class="myclass">我的课程
+    <text>更多视频课程请到腾讯课堂 -> 蒋志斌主页</text>
+  </view>
+
+  <view class="myclass">我的阅读
+    <text>更多阅读请关注《品乐书会》公众号</text>
+    <image src='cloud://cloud1-1gtoo4qib16a1e69.636c-cloud1-1gtoo4qib16a1e69-1305292012/cn-book.jpg' class='image'></image>
+  </view>
+
+  <view class="addNews">
+    <navigator url="../addNews/addNews">
+       添加简讯->
+    </navigator>
+    <navigator url="../editor/editor">
+      添加文章->
+    </navigator>
+  </view>
+
+
+
+</view>

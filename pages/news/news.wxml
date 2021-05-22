@@ -1,0 +1,17 @@
+<!--pages/news/news.wxml-->
+<view class="container">
+   <view class='news'>简讯</view>
+
+   <view class="news-item" wx:for="{{news}}">
+      <view class='news-item'>
+         <view class='news-bk'>
+            <view class='news-text'>
+               <view class='news-title'>{{item.title}}<text class='news-time'>{{item.time}} </text></view>
+                  <view class='news-content'>
+                     <text class='news-section'>{{item.section}}</text>
+                  </view>
+               </view>
+         </view>
+      </view>
+   </view>
+</view>
